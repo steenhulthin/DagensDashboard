@@ -13,16 +13,25 @@ header {
     padding: 20px;
 }
 .card {
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 45%;
     margin: 10px;
     text-align: center;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+}
+.card h2 {
+    margin: 16px 16px 12px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .thumbnail {
+    display: block;
     width: 100%;
     height: auto;
 }
